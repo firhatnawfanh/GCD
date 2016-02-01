@@ -32,4 +32,15 @@ You should create one R script called run_analysis.R that does the following.
 4. Appropriately labels the data set with descriptive variable names.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
+# Notes
+Please notes that the analysis files is ordered not strictly based on the instruction above, although the end product would be same
+
+# Requirement
+To replicate this result please see that you have plyr package active by loading it with library(plyr) or require(plyr), if you had't installed it yet do install.packages("plyr")
+
+ensure that the data had been extracted and your working directory had been set on the immediate parent directory of the extracted folder before running R
+
+copy the content of run_analysis.R and paste into your R console to run the analysis
+
+
 
